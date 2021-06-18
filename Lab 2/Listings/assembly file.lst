@@ -1,0 +1,143 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         
+    2 00000000                 AREA             subroutines, CODE
+    3 00000000                 EXPORT           findHighBitASM
+    4 00000000         
+    5 00000000         findHighBitASM
+    6 00000000         ; Initialize, check if you really need to initalize
+    7 00000000 B570            PUSH             {r4-r6, lr} ; store link regist
+                                                            er
+    8 00000002 4603            MOV              r3,r0       ; input array
+    9 00000004 460C            MOV              r4,r1       ; nelements
+   10 00000006 2000            MOVS             r0,#0x00    ; 32bit number we a
+                                                            re looking at (usin
+                                                            g UXTH we will make
+                                                             this 32bit no worr
+                                                            ies)
+   11 00000008 2100            MOVS             r1,#0x00    ; which bit we are 
+                                                            looking at
+   12 0000000A 2200            MOVS             r2,#0x00    ; temp array value
+   13 0000000C 2500            MOVS             r5,#0x00    ; which number we a
+                                                            re looking at
+   14 0000000E         ; NOTE: r6 will act as the other half of the 32bit for r
+                       0
+   15 0000000E         ; UXTH will help us do that
+   16 0000000E         
+   17 0000000E         loop
+   18 0000000E F853 2021       LDR              r2,[r3,r1,LSL #2] ; create temp
+                                                             array value
+   19 00000012 B14A            CBZ              r2,endloop  ; psedo code for if
+                                                             temp != 0 then bra
+                                                            nch to end of loop
+   20 00000014 2500            MOVS             r5,#0x00    ; restore number we
+                                                             are looking at
+   21 00000016 E002            B                nestedloop2 ; we want to skip t
+                                                            he increment if we 
+                                                            are at the last ele
+                                                            ment of the array
+   22 00000018         
+   23 00000018         nestedloop1
+   24 00000018 1C6E            ADDS             r6,r5,#1    ; increment the num
+                                                            ber we are looking 
+                                                            at
+   25 0000001A B2B5            UXTH             r5,r6       ; make sure to stor
+                                                            e it as 32bit not 1
+                                                            6bits
+   26 0000001C 0852            LSRS             r2,r2,#1    ; right shift temp 
+                                                            
+   27 0000001E         
+   28 0000001E         nestedloop2
+   29 0000001E 2A01            CMP              r2,#0x01    ; increment pos2
+   30 00000020 D8FA            BHI              nestedloop1 ; if the for loop i
+                                                            s not done, go back
+                                                            
+   31 00000022 EB05 1641       ADD              r6,r5,r1,LSL #5 ; pos1 = j*32 +
+                                                             pos2;
+   32 00000026 B2B0            UXTH             r0,r6       ; r6=other half of 
+                                                            r0 to make 32bit nu
+                                                            mber
+   33 00000028         
+   34 00000028         endloop
+
+
+
+ARM Macro Assembler    Page 2 
+
+
+   35 00000028 1C4E            ADDS             r6,r1,#1    ; increment r6 
+   36 0000002A B2B1            UXTH             r1,r6       ; r6 is the other h
+                                                            alf of r1
+   37 0000002C 42A1            CMP              r1,r4       ; compare i of for 
+                                                            loop to nelements
+   38 0000002E D3EE            BCC              loop        ; branch back to be
+                                                            ginning
+   39 00000030         
+   40 00000030         ; return position
+   41 00000030 BD70            POP              {r4-r6,pc}
+   42 00000032                 END
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=".\objects\assembly file.d" -o".\objects\assembly file.o" -IC:\Kei
+l_v5\ARM\RV31\INC -IC:\Keil_v5\ARM\CMSIS\Include -IC:\Keil_v5\ARM\INC\ST\STM32F
+10x --predefine="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 534" --list
+=.\listings\assembly file.lst "Assembly File.s"
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+endloop 00000028
+
+Symbol: endloop
+   Definitions
+      At line 34 in file Assembly
+   Uses
+      At line 19 in file Assembly
+Comment: endloop used once
+findHighBitASM 00000000
+
+Symbol: findHighBitASM
+   Definitions
+      At line 5 in file Assembly
+   Uses
+      At line 3 in file Assembly
+Comment: findHighBitASM used once
+loop 0000000E
+
+Symbol: loop
+   Definitions
+      At line 17 in file Assembly
+   Uses
+      At line 38 in file Assembly
+Comment: loop used once
+nestedloop1 00000018
+
+Symbol: nestedloop1
+   Definitions
+      At line 23 in file Assembly
+   Uses
+      At line 30 in file Assembly
+Comment: nestedloop1 used once
+nestedloop2 0000001E
+
+Symbol: nestedloop2
+   Definitions
+      At line 28 in file Assembly
+   Uses
+      At line 21 in file Assembly
+Comment: nestedloop2 used once
+subroutines 00000000
+
+Symbol: subroutines
+   Definitions
+      At line 2 in file Assembly
+   Uses
+      None
+Comment: subroutines unused
+6 symbols
+338 symbols in table

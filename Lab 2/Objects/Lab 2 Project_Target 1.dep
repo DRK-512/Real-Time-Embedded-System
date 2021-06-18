@@ -1,0 +1,18 @@
+Dependencies for Project 'Lab 2 Project', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup_stm32f10x_md.s)(0x559D8946)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x--pd "__UVISION_VERSION SETA 534"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (.\system_stm32f10x.c)(0x608183F6)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="534"-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Keil_v5\ARM\INC\ST\STM32F10x\stm32f10x.h)(0x60818A5C)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D945A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EE582)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D945A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D945A)
+I (C:\Keil_v5\ARM\INC\ST\STM32F10x\system_stm32f10x.h)(0x559D89B0)
+F (.\main.c)(0x6090540A)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="534"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\INC\ST\STM32F10x\stm32f10x.h)(0x60818A5C)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D945A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EE582)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D945A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D945A)
+I (C:\Keil_v5\ARM\INC\ST\STM32F10x\system_stm32f10x.h)(0x559D89B0)
+F (.\Assembly File.s)(0x608BB257)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x--pd "__UVISION_VERSION SETA 534"--list ".\listings\assembly file.lst" --xref -o ".\objects\assembly file.o" --depend ".\objects\assembly file.d")

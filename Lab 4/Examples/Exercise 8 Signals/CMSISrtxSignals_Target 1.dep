@@ -1,0 +1,53 @@
+Dependencies for Project 'CMSISrtxSignals', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x56B46A3E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I "C:\Work\workshop\training\Training Course Packs\RTX pack - Keil\Files\Examples\Exercise 8 Signals\RTE"-I "C:\Work\workshop\training\Training Course Packs\RTX pack - Keil\Files\Examples\Exercise 8 Signals\RTE\Device\STM32F103RB"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA6FD0)
+I (C:\Work\workshop\training\Training Course Packs\RTX pack - Keil\Files\Examples\Exercise 8 Signals\RTE\RTE_Components.h)(0x53E342FA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5626197C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB8DF0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x562605C0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x562605C0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x562605C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E9EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5627AA4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DB8DEE)
+I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_LED.h)(0x53BB76B2)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Boards\Keil\MCBSTM32E\Common\LED_MCBSTM32E.c)(0x55FBC280)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I "C:\Work\workshop\training\Training Course Packs\RTX pack - Keil\Files\Examples\Exercise 8 Signals\RTE"-I "C:\Work\workshop\training\Training Course Packs\RTX pack - Keil\Files\Examples\Exercise 8 Signals\RTE\Device\STM32F103RB"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\led_mcbstm32e.o --omf_browse .\led_mcbstm32e.crf --depend .\led_mcbstm32e.d)
+I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_LED.h)(0x53BB76B2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB8DF0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver\GPIO_STM32F10x.h)(0x56178B8E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB8DE6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA6FD0)
+I (C:\Work\workshop\training\Training Course Packs\RTX pack - Keil\Files\Examples\Exercise 8 Signals\RTE\RTE_Components.h)(0x53E342FA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5626197C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x562605C0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x562605C0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x562605C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E9EBC)
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib)(0x5624BF76)()
+F (RTE\CMSIS\RTX_Conf_CM.c)(0x524993EE)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I "C:\Work\workshop\training\Training Course Packs\RTX pack - Keil\Files\Examples\Exercise 8 Signals\RTE"-I "C:\Work\workshop\training\Training Course Packs\RTX pack - Keil\Files\Examples\Exercise 8 Signals\RTE\Device\STM32F103RB"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\rtx_conf_cm.o --omf_browse .\rtx_conf_cm.crf --depend .\rtx_conf_cm.d)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5627AA4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB8DF0)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DB8DEE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x556D9354)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver\GPIO_STM32F10x.c)(0x56178B8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I "C:\Work\workshop\training\Training Course Packs\RTX pack - Keil\Files\Examples\Exercise 8 Signals\RTE"-I "C:\Work\workshop\training\Training Course Packs\RTX pack - Keil\Files\Examples\Exercise 8 Signals\RTE\Device\STM32F103RB"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\gpio_stm32f10x.o --omf_browse .\gpio_stm32f10x.crf --depend .\gpio_stm32f10x.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver\GPIO_STM32F10x.h)(0x56178B8E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB8DE6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA6FD0)
+I (C:\Work\workshop\training\Training Course Packs\RTX pack - Keil\Files\Examples\Exercise 8 Signals\RTE\RTE_Components.h)(0x53E342FA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5626197C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB8DF0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x562605C0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x562605C0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x562605C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E9EBC)
+F (RTE\Device\STM32F103RB\RTE_Device.h)(0x5616106E)()
+F (RTE\Device\STM32F103RB\startup_stm32f10x_md.s)(0x4F1E90AC)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork -I "C:\Work\workshop\training\Training Course Packs\RTX pack - Keil\Files\Examples\Exercise 8 Signals\RTE"-I "C:\Work\workshop\training\Training Course Packs\RTX pack - Keil\Files\Examples\Exercise 8 Signals\RTE\Device\STM32F103RB"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver--pd "__UVISION_VERSION SETA 517" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\startup_stm32f10x_md.lst --xref -o .\startup_stm32f10x_md.o --depend .\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103RB\system_stm32f10x.c)(0x4F1E90AC)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I "C:\Work\workshop\training\Training Course Packs\RTX pack - Keil\Files\Examples\Exercise 8 Signals\RTE"-I "C:\Work\workshop\training\Training Course Packs\RTX pack - Keil\Files\Examples\Exercise 8 Signals\RTE\Device\STM32F103RB"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\RTE_Driver-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\system_stm32f10x.o --omf_browse .\system_stm32f10x.crf --depend .\system_stm32f10x.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA6FD0)
+I (C:\Work\workshop\training\Training Course Packs\RTX pack - Keil\Files\Examples\Exercise 8 Signals\RTE\RTE_Components.h)(0x53E342FA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5626197C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB8DF0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x562605C0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x562605C0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x562605C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E9EBC)
